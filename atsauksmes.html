@@ -10,6 +10,7 @@
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='styile.css'>
+    <script src="confetti.js"></script>
     <script src='main.js'></script>
 </head>
 <body>
@@ -28,10 +29,11 @@
         <input  type="range" id="vertejums" min="0" max="100" value="1" ><br>
         <label name="suglab" for="ieteikums">what woud you like to sugest for this website</label>
         <input type="text" id="ieteikums" placeholder="sugestion">
-        <button onclick="nosūtīt">submit</button>
+        <input aria-labelledby="suglab" name="submit" type="submit">
     </form><div class="lieldienas">
 
     </div>
 </div></div>
+|<canvas id="confetti-canvas"></canvas>
 </body>
 </html>
