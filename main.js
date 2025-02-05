@@ -1,12 +1,8 @@
 function nosūtīt(){
-    const lild =document.getElementById("lieldienas")
+   
     setTimeout(function(){alert("Jūsu jautājums ir nosūtīts");},100);
     startConfetti();
-    var vert = document.getElementById('vertejums');
-    if(vert.value=1){
-        lild.style.backgroundColor = red;
-        
-    }
+    setTimeout(stopConfetti(),30000);
 }
 document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('manksausmes').addEventListener('submit', function(event) {
