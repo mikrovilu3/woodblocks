@@ -97,3 +97,18 @@ iframe{
 #undercont{
     padding-top: round(up,20vw/4.1,50px) ;
 }
+.lieldienas{
+    position: fixed;
+    top: 300px;
+    left: 52%;
+    width: 100px;
+    height: 100px;
+}
+center div a {
+    font-size: 150px;
+    
+}
+h6.format{
+    line-height: 10px;
+    font-size: x-large;
+}
