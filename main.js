@@ -2,7 +2,7 @@ function nosūtīt(){
    
     alert("Jūsu jautājums ir nosūtīts");
 
-    setTimeout(startConfetti(),10);
+    startConfetti();
 
 }
 document.addEventListener('DOMContentLoaded', function () {
