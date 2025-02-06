@@ -14,7 +14,7 @@ body{
 }
 .curent-btn, .tab-btn{
     
-    width: 20vw;
+    width: 25vw;
     margin:0px;
     color: black;
     container-type: inline-size;
@@ -33,14 +33,14 @@ h3{
     font-size: 60px;
     font-weight: 50;
     text-align: center;
-    height:calc( round(up,20vw/4.1,50px)-8);
+    height:calc( round(up,25vw/4.1,50px)-8);
     margin: 0px;
     padding-top: 8px;
 
 }
 @container (max-width: 255px) {
     h3 {
-      font-size: calc(20vw/4.5);
+      font-size: calc(25vw/4.5);
     }
   }
 a{
@@ -80,7 +80,7 @@ iframe {
     padding: 0px;
     margin: 0%;
     display: inline-block;
-top: calc( round(up,20vw/4.1,50px)-8);
+top: calc( round(up,25vw/4.1,50px)-8);
 }
 .foot{
     position: fixed;
@@ -96,7 +96,7 @@ iframe{
     left: 650px;
 }
 #undercont{
-    padding-top: round(up,20vw/4.1,50px) ;
+    padding-top: round(up,25vw/4.1,50px) ;
 }
 .lieldienas{
     position: fixed;
