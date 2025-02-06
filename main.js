@@ -1,8 +1,9 @@
 function nosūtīt(){
    
-    setTimeout(function(){alert("Jūsu jautājums ir nosūtīts");},100);
-    startConfetti();
-    setTimeout(stopConfetti(),30000);
+    alert("Jūsu jautājums ir nosūtīts");
+
+    setTimeout(startConfetti(),10);
+
 }
 document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('manksausmes').addEventListener('submit', function(event) {
